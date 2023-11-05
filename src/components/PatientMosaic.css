@@ -1,0 +1,136 @@
+.patient-mosaic {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 18pt;
+}
+
+.patient-mosaic p {
+    margin: 0px;
+    text-align: left;
+    color: #555;
+}
+
+.patient-mosaic div {
+    display:flex;
+    align-items: center; 
+    padding: 30px;
+    font-size: 20pt;
+    border: 4px solid #88b7e9;
+    border-radius: 10px;
+}
+
+#patient-name {
+    height: 100px;
+    width: 90%;
+    font-size: 40pt;
+    border: 4px solid #88b7e9;
+    background-color: #C9E6F7;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+    font-size: 80px;
+    font-weight: bold;
+    color: #007BFF;
+}
+/* #patient-name:hover {
+    border-color: #B8DEF4;
+    background-color: #A9CFEF;
+} */
+#patient-name.dark-mode {
+    border: 4px solid #418CDC;
+    background-color: #A9CFEF;
+    /* color: white; */
+}
+/* #patient-name.dark-mode:hover {
+    border-color: #1C5A9B;
+    background-color: #75B3E6;
+} */
+
+#drugs {
+    font-size: 40pt;
+    font-size: 18pt;
+}
+
+#drugName {
+    border: 2px solid black;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 20pt;
+    outline:none;
+    width:70%
+}
+
+.submit {
+    font-size: 20pt;
+    border: 2px solid black;
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+    box-shadow: none;
+    width: 20%
+}
+
+.patient-info {
+    flex: 1;
+}
+
+.triplet {
+    border: 4px solid #88b7e9;
+    background-color: #C9E6F7;
+    border-radius: 10px;
+    padding: 30px;
+    flex: 1;
+    transition: flex 300ms linear;
+}
+/* .triplet:hover {
+    border-color: #B8DEF4;
+    background-color: #A9CFEF;
+} */
+.triplet.dark-mode {
+    border: 4px solid #418CDC;
+    background-color: #A9CFEF;
+    color: white;
+}
+/* .triplet.dark-mode:hover{
+    border-color: #1C5A9B;
+    background-color: #75B3E6;
+} */
+
+.triplet-container {
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.hide {
+    border: none;
+    flex: 0.000001;
+    padding: 0px;
+}
+.hide * {
+    display: none;
+}
+
+table {
+    border: 2px solid black;
+    width: 90%;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.white {
+    color: white;
+}

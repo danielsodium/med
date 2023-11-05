@@ -1,0 +1,31 @@
+
+.checklist {
+    font-size: 24pt;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20pt;
+    text-align: right;
+
+    color: #555;
+    font-weight: bold;
+}
+
+.checkbox {
+    transform: scale(2.0);
+}
+.checkmark {
+    margin-right: 30px;
+}
+.listdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    color: #555;
+    font-weight: normal;
+}
+
+.container.dark-mode {
+    color: white;
+}
